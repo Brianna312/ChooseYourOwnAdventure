@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MTWPE0734.MOV.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QCIZE6962.MOV.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ORIWE2295.MOV.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UVNOE7537.MOV.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plates.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4bb357039dad36e0ee4e5cec4575a817a3a869a68bb0461f53ac109f4e295503.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dresser.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bathroom.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bathroom2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedroom %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hallway.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RKJUE7645.MOV.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROYBE4892.MOV.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
