@@ -157,11 +157,12 @@
             // 
             this.debugLabel.AutoSize = true;
             this.debugLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.debugLabel.Location = new System.Drawing.Point(339, 494);
+            this.debugLabel.Location = new System.Drawing.Point(409, 491);
             this.debugLabel.Name = "debugLabel";
             this.debugLabel.Size = new System.Drawing.Size(46, 16);
             this.debugLabel.TabIndex = 10;
             this.debugLabel.Text = "debug";
+            this.debugLabel.Visible = false;
             // 
             // debugTextboxDecidion
             // 
@@ -169,6 +170,7 @@
             this.debugTextboxDecidion.Name = "debugTextboxDecidion";
             this.debugTextboxDecidion.Size = new System.Drawing.Size(100, 22);
             this.debugTextboxDecidion.TabIndex = 12;
+            this.debugTextboxDecidion.Visible = false;
             // 
             // debgButton
             // 
@@ -178,6 +180,7 @@
             this.debgButton.TabIndex = 13;
             this.debgButton.Text = "set";
             this.debgButton.UseVisualStyleBackColor = true;
+            this.debgButton.Visible = false;
             this.debgButton.Click += new System.EventHandler(this.debgButton_Click);
             // 
             // IntegralSecretLabel
@@ -192,7 +195,7 @@
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(516, 306);
+            this.pictureBox.Location = new System.Drawing.Point(524, 297);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(249, 163);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

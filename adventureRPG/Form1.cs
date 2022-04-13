@@ -1687,7 +1687,7 @@ namespace adventureRPG
 
             else if (decision == 33)
             {
-                decision = 60;
+                decision = 8;
                 debugLabel.Text = $"decision: {decision}";
             }
 
@@ -2053,8 +2053,7 @@ namespace adventureRPG
                 option1.Text = ">>Leave the bathroom...";
                 option2.Text = ">>Search the medicine cabinet...";
                 option3.Text = ">>Look in the toilet...";
-
-                decision = 21;
+                                
                 SoundPlayer player = new SoundPlayer(Properties.Resources.lightswitchSound);
                 player.Play();
 
